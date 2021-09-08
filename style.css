@@ -1,0 +1,52 @@
+/* Colors and fonts*/
+body {background: #FCB34D}
+
+h1;h2 {
+
+}
+h1{ font-size: 40px; color: FFB830;
+}
+h2{font-size: 28px;
+color: darkblue;}
+p {font-size: 22px;
+	color: black;
+}
+
+.container {
+	width:  1000px;
+	margin:  0 auto;
+	text-align: center;
+}
+.card-white {
+	background-color: #FCB34D ;
+	padding: 30px;
+	margin: 30px;
+	border-radius: 4px;
+	box-shadow: 10px 10px 20px darkred;
+}
+.img-circle {
+	border-radius: 50%;
+	}
+#agauche {
+	text-align: left;
+	background-color:#FCB34D ;
+	padding: 20px;
+	margin: 30px;
+	border-radius: 4px;
+}
+#milieu {
+	text-align: center;
+	background-color: #FCB34D;
+	padding: 20px;
+	margin: 30px;
+	border-radius:4px ;
+}
+#box-inline {
+	display: flex;
+}
+/*// SM-Tablets*/
+@media(max-width: 992px) {
+	container {
+		width: 800pw;
+	}
+}
